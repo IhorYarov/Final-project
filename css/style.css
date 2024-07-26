@@ -1,0 +1,99 @@
+:root {
+  --Roboto: "Roboto", sans-serif;
+  --Cursive: "Playwrite BE WAL", cursive;
+}
+body {
+  background-color: black;
+}
+/* header {
+  background-color: #012d63;
+} */
+.hea1,
+.span1 {
+  color: #fff;
+  font-family: var(--Roboto);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+header li {
+  color: #012d63;
+  margin: 29px;
+}
+/* header ul {
+  display: flex;
+  justify-content: center;
+} */
+.hea {
+  color: #c7c7c7;
+  font-family: var(--Roboto);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+/* .heaimg {
+  margin-right: 152px;
+  margin-left: 168px;
+  width: 100px;
+  height: 60px;
+  flex-shrink: 0;
+} */
+.phome {
+  color: white;
+  font-family: var(--Cursive);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cr {
+  color: #fff;
+  font-family: var(--Roboto);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.important {
+  color: #fff;
+  font-family: var(--Roboto);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.rep {
+  color: #d8d8d8;
+  font-family: var(--Roboto);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.rename {
+  color: #fff;
+  font-family: var(--Roboto);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.redata {
+  color: #d8d8d8;
+  font-family: var(--Roboto);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.lidesc {
+  color: #fff;
+  text-align: center;
+  font-family: var(--Cursive);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
