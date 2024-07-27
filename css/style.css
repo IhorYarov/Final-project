@@ -1,6 +1,7 @@
 :root {
-  --Roboto: "Roboto", sans-serif;
-  --Cursive: "Playwrite BE WAL", cursive;
+  --Headline: "Oswald", sans-serif;
+  --Text: "Open Sans", sans-serif;
+  --Subheadline: "Roboto", sans-serif;
 }
 body {
   background-color: black;
@@ -11,7 +12,7 @@ body {
 .hea1,
 .span1 {
   color: #fff;
-  font-family: var(--Roboto);
+  font-family: var(--Headline);
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -27,7 +28,7 @@ header li {
 } */
 .hea {
   color: #c7c7c7;
-  font-family: var(--Roboto);
+  font-family: var(--Headline);
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -42,7 +43,7 @@ header li {
 } */
 .phome {
   color: white;
-  font-family: var(--Cursive);
+  font-family: var(--Text);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -50,7 +51,7 @@ header li {
 }
 .cr {
   color: #fff;
-  font-family: var(--Roboto);
+  font-family: var(--Subheadline);
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -58,7 +59,7 @@ header li {
 }
 .important {
   color: #fff;
-  font-family: var(--Roboto);
+  font-family: var(--Text);
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -66,7 +67,7 @@ header li {
 }
 .rep {
   color: #d8d8d8;
-  font-family: var(--Roboto);
+  font-family: var(--Text);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -74,7 +75,7 @@ header li {
 }
 .rename {
   color: #fff;
-  font-family: var(--Roboto);
+  font-family: var(--Text);
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -82,7 +83,7 @@ header li {
 }
 .redata {
   color: #d8d8d8;
-  font-family: var(--Roboto);
+  font-family: var(--Text);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -91,8 +92,32 @@ header li {
 .lidesc {
   color: #fff;
   text-align: center;
-  font-family: var(--Cursive);
+  font-family: var(--Headline);
   font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form {
+  color: #959595;
+  font-family: var(--Headline);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form option {
+  color: #585353;
+  font-family: var(--Subheadline);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.order {
+  color: #fff;
+  font-family: var(--Headline);
+  font-size: 48px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
