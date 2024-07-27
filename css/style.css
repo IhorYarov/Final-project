@@ -19,7 +19,7 @@ body {
   line-height: normal;
 }
 header li {
-  color: #012d63;
+  color: transparent;
   margin: 29px;
 }
 /* header ul {
@@ -118,6 +118,66 @@ header li {
   color: #fff;
   font-family: var(--Headline);
   font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer h3 {
+  color: #fff;
+  font-family: var(--Subheadline);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer a {
+  color: #fff;
+  font-family: var(--Subheadline);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+footer li {
+  color: transparent;
+}
+footer p {
+  color: #fff;
+  font-family: var(--Text);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.colorawe {
+  color: #fff;
+  font-family: var(--Headline);
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.dreamnike {
+  color: #fff;
+  font-family: var(--Subheadline);
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.butt1 {
+  color: #fff;
+  font-family: var(--Subheadline);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.butt2 {
+  color: #fff;
+  font-family: var(--Subheadline);
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
