@@ -13,11 +13,19 @@ header {
   background-repeat: no-repeat;
 }
 .sec2 {
-  background-image: linear-gradient(to right, violet, blue, rgb(30, 191, 199));
+  width: 1440px;
+  height: auto;
+  flex-shrink: 0;
+  background-image: linear-gradient(
+    125.31deg,
+    violet,
+    blue 60%,
+    rgb(30, 191, 199)
+  );
 }
 .john {
   width: 255px;
-  height: 292px;
+  height: auto;
   flex-shrink: 0;
   border-radius: 15px;
   background: linear-gradient(
@@ -29,9 +37,22 @@ header {
   );
   box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
 }
+.form1 {
+  width: 1440px;
+  height: 509px;
+  flex-shrink: 0;
+  background: url("/images/background/bg_2.png") lightgray -1.001px -1.002px /
+    100.209% 158.214% no-repeat;
+}
+.revi1 {
+  width: 1440px;
+  height: 520px;
+  flex-shrink: 0;
+  background-image: linear-gradient(125.31deg, blue 60%, rgb(30, 191, 199));
+}
 .garsia {
   width: 255px;
-  height: 292px;
+  height: auto;
   flex-shrink: 0;
   border-radius: 15px;
   background: linear-gradient(
@@ -45,7 +66,7 @@ header {
 }
 .tom {
   width: 255px;
-  height: 292px;
+  height: auto;
   flex-shrink: 0;
   border-radius: 15px;
   background: linear-gradient(
