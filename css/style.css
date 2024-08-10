@@ -14,7 +14,7 @@ header {
 }
 .sec2 {
   width: auto;
-  height: ;
+  height: auto;
   flex-shrink: 0;
   background-image: linear-gradient(
     125.31deg,
