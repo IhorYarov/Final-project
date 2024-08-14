@@ -44,10 +44,15 @@ header {
   background: url("/images/background/bg_2.png") lightgray -1.001px -1.002px /
     100.209% 158.214% no-repeat;
 }
+.container1 {
+  display: flex;
+  justify-items: center;
+}
 .revi1 {
   width: auto;
-  height: 520px;
+  height: 509px;
   flex-shrink: 0;
+  /* background-image: url("/images/background/nike_3.png"); */
   background-image: linear-gradient(125.31deg, blue 60%, rgb(30, 191, 199));
 }
 .garsia {
@@ -124,6 +129,56 @@ header ul {
   display: flex;
   justify-content: center;
 }
+/* .lindesc {
+  display: flex;
+  justify-content: center;
+} */
+.butt1 {
+  border-radius: 10px;
+  width: 254px;
+  height: 67px;
+  flex-shrink: 0;
+  text-align: center;
+  background: #8e32c6;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 164px;
+  margin-top: 608px;
+  margin-bottom: 183px;
+  margin-right: 1022px; */
+}
+.laught {
+  background-color: red;
+}
+.laught p {
+  color: #fff;
+  font-family: var(--Text);
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.laught h2 {
+  color: #fff;
+  font-family: var(--Headline);
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto;
+}
+.form {
+  width: 690px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background-color: #fff;
+}
 .hea {
   color: #c7c7c7;
   font-family: var(--Headline);
@@ -146,6 +201,16 @@ header ul {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.order {
+  display: flex;
+  justify-content: center;
+}
+.label,
+.country1 {
+  display: flex;
+  justify-content: center;
+  direction: ;
 }
 .cr {
   color: #fff;
@@ -186,6 +251,26 @@ header ul {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.revtitle {
+  color: #fff;
+  text-align: center;
+  font-family: var(--Subheadline);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+}
+.sec2 img {
+  width: 240px;
+  height: 240px;
+  flex-shrink: 0;
+  gap: 145px;
+}
+.imgd {
+  margin-left: 145px;
 }
 .lidesc {
   color: #fff;
