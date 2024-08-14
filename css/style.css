@@ -135,7 +135,7 @@ header ul {
 } */
 .butt1 {
   border-radius: 10px;
-  width: 254px;
+  width: auto;
   height: 67px;
   flex-shrink: 0;
   text-align: center;
@@ -146,6 +146,10 @@ header ul {
   margin-top: 608px;
   margin-bottom: 183px;
   margin-right: 1022px; */
+}
+.container1 {
+  border-width: 555px;
+  border-color: #8e32c6;
 }
 .laught {
   background-color: red;
@@ -206,12 +210,18 @@ header ul {
   display: flex;
   justify-content: center;
 }
-.label,
+.butt1 {
+  padding-left: 61px;
+  padding-right: 61px;
+  padding-bottom: 19px;
+  padding-top: 20px;
+}
+/* .label,
 .country1 {
   display: flex;
   justify-content: center;
   direction: ;
-}
+} */
 .cr {
   color: #fff;
   font-family: var(--Subheadline);
