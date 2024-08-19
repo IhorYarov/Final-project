@@ -37,12 +37,31 @@ header {
   );
   box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
 }
-.form1 {
-  width: auto;
-  height: 509px;
+.container {
+  width: 1440px;
+  height: auto;
   flex-shrink: 0;
+  justify-content: center;
   background: url("/images/background/bg_2.png") lightgray -1.001px -1.002px /
     100.209% 158.214% no-repeat;
+}
+.butt2 {
+  border-radius: 16px;
+  background-color: #8e32c6;
+  width: 248px;
+  height: 68px;
+  flex-shrink: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.container1 {
+  border-color: #8e32c6;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .container1 {
   display: flex;
@@ -133,6 +152,14 @@ header ul {
   display: flex;
   justify-content: center;
 } */
+.countdown-timer {
+  background-image: url("https://wallpapers.com/images/high/nike-background-nybcmuipgeu6acps.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.countdown-timer {
+  color: white;
+}
 .butt1 {
   border-radius: 10px;
   width: auto;
@@ -151,27 +178,6 @@ header ul {
   border-width: 555px;
   border-color: #8e32c6;
 } */
-.laught {
-  background-color: red;
-}
-.laught p {
-  color: #fff;
-  font-family: var(--Text);
-  font-size: 23px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.laught h2 {
-  color: #fff;
-  font-family: var(--Headline);
-  font-size: 33px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  display: flex;
-  justify-content: center;
-}
 .container {
   display: grid;
   grid-template-columns: auto;
