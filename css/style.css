@@ -3,6 +3,11 @@
   --Text: "Open Sans", sans-serif;
   --Subheadline: "Roboto", sans-serif;
 }
+.revibg {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
 header {
   background-color: #012d63;
 }
@@ -12,9 +17,13 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.sec2 {
-  width: auto;
-  height: auto;
+input {
+  margin-top: 19px;
+}
+.container-description {
+  /* width: 1440px;
+    height: 606px;
+    flex-shrink: 0; */
   flex-shrink: 0;
   background-image: linear-gradient(
     125.31deg,
@@ -38,12 +47,16 @@ header {
   box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
 }
 .container {
-  width: 1440px;
-  height: auto;
+  /* width: 1440px;
+  height: auto; */
   flex-shrink: 0;
   justify-content: center;
   background: url("/images/background/bg_2.png") lightgray -1.001px -1.002px /
     100.209% 158.214% no-repeat;
+}
+.descripul {
+  border-width: 50px;
+  border-color: #7b54b2;
 }
 .butt2 {
   border-radius: 16px;
@@ -55,8 +68,28 @@ header {
   display: flex;
   justify-content: center;
 }
+/* section {
+  display: grid;
+  grid-gap: 0;
+} */
+.label,
+.form {
+  width: 580px;
+  height: 50px;
+}
+.descripul li {
+  margin-right: 145px;
+  text-align: center;
+}
+.descripul a {
+  color: transparent;
+}
 .container1 {
   border-color: #8e32c6;
+}
+input :focus :hover {
+  width: 690px;
+  height: 60px;
 }
 .form {
   display: flex;
@@ -87,6 +120,9 @@ header {
     #8961ff 100%
   );
   box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+}
+.containermain {
+  margin-left: 156px;
 }
 .tom {
   width: 255px;
@@ -160,6 +196,10 @@ header ul {
 .countdown-timer {
   color: white;
 }
+section {
+  display: grid;
+  grid-gap: -10;
+}
 .butt1 {
   border-radius: 10px;
   width: auto;
@@ -178,13 +218,22 @@ header ul {
   border-width: 555px;
   border-color: #8e32c6;
 } */
+.butt2 {
+  width: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 49px;
+  padding-left: 48px;
+  display: flex;
+  justify-content: center;
+}
 .container {
   display: grid;
   grid-template-columns: auto;
 }
 .form {
-  width: 690px;
-  height: 60px;
+  /* width: 690px;
+  height: 60px; */
   flex-shrink: 0;
   border-radius: 50px;
   background-color: #fff;
@@ -204,6 +253,9 @@ header ul {
   height: 60px;
   flex-shrink: 0;
 }
+section {
+  margin: 0;
+}
 .phome {
   color: white;
   font-family: var(--Text);
@@ -222,12 +274,6 @@ header ul {
   padding-bottom: 19px;
   padding-top: 20px;
 }
-/* .label,
-.country1 {
-  display: flex;
-  justify-content: center;
-  direction: ;
-} */
 .cr {
   color: #fff;
   font-family: var(--Subheadline);
