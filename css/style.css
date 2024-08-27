@@ -198,7 +198,6 @@ header ul {
 }
 section {
   display: grid;
-  grid-gap: -10;
 }
 .butt1 {
   border-radius: 10px;
